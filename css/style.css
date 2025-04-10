@@ -1,0 +1,116 @@
+
+
+*{
+    margin: 0 auto;
+}
+
+
+
+header{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(24, 74, 106);
+}
+
+#logo{
+    width: 15%;
+}
+
+#logo img{
+    width: 100%;
+}
+
+
+#menu{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+#menu ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+}
+
+#menu a:hover{
+    color: rgb(207, 128, 49);
+    font-size: 1.6em;
+}
+
+
+
+#sobre_nos{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgb(15, 63, 94);
+    align-items: space-between;
+
+}
+
+
+#sobre_nos p{
+    align-self: flex-end;
+    width: 100%;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+#sobre_nos article img{
+    width: 60%;
+    align-self: right;
+}
+
+
+
+#depoimentos {
+    background-color: rgb(249, 172, 79);
+    padding: 10px 20px 30px 40px;
+    
+}
+
+#depoimentos article h2{
+    color: rgb(14, 67, 101);
+    
+}
+
+#depoimentos article p{
+    color: rgb(197, 52, 12);
+}
+
+
+
+
+
+
+footer{
+    display: flex;
+    background-color: rgb(24, 74, 106);
+    width: 100%;
+    height: 5vh;
+    color: white;
+    align-items: center;
+}
+
+
+#footer a{
+    color: rgb(207, 128, 49);
+}
+
+
+
+
